@@ -130,21 +130,25 @@ a:hover {
 
 .avatar {
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   /* padding-bottom: 30px; */
-  margin-left: calc(100vw - 100%);
+  /*margin-left: calc(100vw - 100%);*/
 }
 
 .avatar img {
   height: 100px;
   width: 100px;
   border-radius: 50%;
+  background-color: transparent;
+  object-fit: cover;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
-.avatar .nickname {
+.avatar + .nickname {
   font-size: 2rem;
   color: #666;
   letter-spacing: 2px;
+  font-weight: bold;
 }
 
 .content {

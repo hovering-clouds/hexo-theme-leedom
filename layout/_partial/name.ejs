@@ -1,4 +1,9 @@
 <div class="header">
-  <a href="<%- theme.avatar.path %>"><%- theme.avatar.author_nickname %></a>
+  <div class="avatar">
+    <img src="<%= url_for(theme.avatar.author_photo) %>" class="img-fluid" alt="avatar">
+  </div>
+  <div class="nickname">
+    <%- theme.avatar.author_nickname %>
+  </div>
 </div>
 

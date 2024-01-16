@@ -83,10 +83,10 @@ a:hover {
     opacity: 0;
     z-index: -1;
   }
-  .back-to-top {
+  /*.back-to-top {
     opacity: 0;
     z-index: -1;
-  }
+  }*/
 }
 
 @media (max-width: 1200px) and (min-width: 887px) {

@@ -24,6 +24,14 @@ avatar:
 prevnext:
   enable: true
 
+inject:
+  css:
+    enable: false
+    path:
+  js:
+    enable: false
+    path:
+
 # 链接信息
 link: 
   # name: 名称
@@ -44,6 +52,10 @@ link:
     #name: email
     #icon: envelope
     #path: 
+  #-    
+    #name: space
+    #icon: link
+    #path: https://hovering-clouds.cn/space/
   #-
     #name: facebook
     #icon: facebooksquare

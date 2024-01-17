@@ -65,4 +65,11 @@
   <script async src="https://cdn.bootcss.com/fancybox/3.5.2/jquery.fancybox.min.js"></script>
   <%- js(['/js/fancybox.js']) %>
 
+  <!-- inject -->
+  <% if (theme.inject.css.enable){ %>
+    <%- css(theme.inject.css.path) %>
+  <% } %>
+  <% if (theme.inject.js.enable){ %>
+    <%- js(theme.inject.js.path) %>
+  <% } %>
 </head>

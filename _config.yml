@@ -24,6 +24,11 @@ avatar:
 prevnext:
   enable: true
 
+# 网站访问统计
+analysis:
+  enable: false
+
+# 注入代码
 inject:
   css:
     enable: false

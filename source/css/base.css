@@ -17,6 +17,12 @@ body.hidden {
   margin: 0 auto;
 }
 
+#timeDate {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+
 /*控制整个滚动条*/
 
 ::-webkit-scrollbar {
